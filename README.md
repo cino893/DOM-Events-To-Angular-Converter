@@ -1,4 +1,4 @@
-# DOM-event-to-AngularJS-event
+# DOM-Events-To-Angular-Converter
 Angular module that converts DOM events to use it in Angular.JS way
 
 ## So this is:
