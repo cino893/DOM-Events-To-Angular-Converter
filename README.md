@@ -5,7 +5,7 @@ Angular module that converts DOM events to use it in Angular.JS way
 
 Another simple module that converts events we want to angularJS directive of attribute type.
 It works same as common angularJS event handlers.
-So basically it converts event to attribute with `-converted-event` prefix eg. 'focusout' to attribute 'focusout-converted-event'
+So basically it converts event to attribute with `-converted-event` sufix eg. 'focusout' to attribute 'focusout-converted-event'
 
 # Samples of use
 
