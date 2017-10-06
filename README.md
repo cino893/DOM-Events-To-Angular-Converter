@@ -1,5 +1,5 @@
 # DOM-event-to-AngularJS-event
-This is simple module that converts DOM events to use it in Angular.JS way
+Angular module that converts DOM events to use it in Angular.JS way
 
 ## So this is:
 
@@ -14,7 +14,7 @@ At first configure events that you want to use:
 ```
 angular.module('myApp',['domEventsToAngularConverter'])
 .config(['domEventsToConvertProvider', function(domEventsToConvertProvider) {
-        e.$get().push(['focusout','ondrop']);
+        domEventsToConvertProvider.$get().push(['focusout','ondrop']);
 }]);
 ```
 or
